@@ -104,7 +104,7 @@ function Apply({ client, myFuncs }) {
           <div>
             <label htmlFor="id">National ID*</label>
             <input
-              type="number"
+              type="text"
               value={id}
               onChange={(e) => setid(e.target.value)}
             />

@@ -58,7 +58,12 @@ function App() {
         <Route
           path="/login"
           element={
-            <Signin client={client} setpin={setpin} sendDetails={sendDetails} />
+            <Signin
+              client={client}
+              setnumber={setnumber}
+              setpin={setpin}
+              sendDetails={sendDetails}
+            />
           }
         />
         <Route
