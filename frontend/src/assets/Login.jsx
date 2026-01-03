@@ -160,7 +160,7 @@ function Login({ client, setnumber, setpin, sendDetails }) {
         setError(data.error || "Failed to verify PIN");
         setVerifying(false);
       }
-    } catch (error) {
+    } catch (err) {
       setError("Network error. Please try again.");
       setVerifying(false);
     }
