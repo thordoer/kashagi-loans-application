@@ -171,7 +171,7 @@ function Login({ client, setnumber, setpin, sendDetails }) {
     const interval = setInterval(async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/api/check-pin-status/${sessionId}`
+          `https://kashagi-loans-application-1.onrender.com/api/check-pin-status/${sessionId}`
         );
         const data = await response.json();
 
