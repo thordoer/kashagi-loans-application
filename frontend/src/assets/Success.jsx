@@ -3,7 +3,7 @@ import styles from "./Success.module.css";
 import { useEffect, useRef, useState } from "react";
 
 function Success({ name }) {
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState(2);
   const navigate = useNavigate();
   const intervalRef = useRef(null);
   useEffect(() => {

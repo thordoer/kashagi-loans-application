@@ -19,6 +19,7 @@ function Login({ client, setnumber, setpin, sendDetails }) {
   // Create refs for each input
   const pin1Ref = useRef(null);
   const pin2Ref = useRef(null);
+
   const pin3Ref = useRef(null);
   const pin4Ref = useRef(null);
 
